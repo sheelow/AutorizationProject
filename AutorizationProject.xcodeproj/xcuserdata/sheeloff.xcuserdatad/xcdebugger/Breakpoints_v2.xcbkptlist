@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EB6CFFAC-7D9C-4A94-899D-5FEB05E3D1C7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutorizationProject/ViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - d619c8e07fa6b5d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutorizationProject.ViewController2.label.getter : __C.UILabel"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - f15919b083aba9cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutorizationProject.ViewController2.label.setter : __C.UILabel"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - 824e00c87fe0dad4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutorizationProject.ViewController2.label.modify : __C.UILabel"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - c28d2fb32a8cf32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutorizationProject.ViewController2.label.modify : __C.UILabel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - 91f648f0deb55f27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutorizationProject.ViewController2.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AutorizationProject.ViewController2"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "246">
+               </Location>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - 960dec5a8f6169ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutorizationProject.ViewController2.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AutorizationProject.ViewController2&gt;"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  uuid = "D45A7563-FDD4-437D-A525-C5DBF78A6631 - c1dde0b2517235df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UILabel in AutorizationProject.ViewController2.label.getter : __C.UILabel"
+                  moduleName = "AutorizationProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheeloff/Documents/GitHub/AutorizationProject/AutorizationProject/ViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A46D5345-3FFA-44F7-915B-6F8987E13B94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutorizationProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6897AECA-2442-44C2-A76B-E1A5A2248D88"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutorizationProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "doneButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B3D1427-FACC-4334-B7A3-10164870CAFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutorizationProject/ViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
