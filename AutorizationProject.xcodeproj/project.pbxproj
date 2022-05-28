@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251CB8BD283E227B003E6029 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 251CB8BC283E227B003E6029 /* Kingfisher */; };
 		259B4CD728254E1B00CE81A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B4CD628254E1B00CE81A2 /* AppDelegate.swift */; };
 		259B4CD928254E1B00CE81A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B4CD828254E1B00CE81A2 /* SceneDelegate.swift */; };
 		259B4CDB28254E1B00CE81A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B4CDA28254E1B00CE81A2 /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		259B4CE028254E1C00CE81A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259B4CDF28254E1C00CE81A2 /* Assets.xcassets */; };
 		259B4CE328254E1C00CE81A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259B4CE128254E1C00CE81A2 /* LaunchScreen.storyboard */; };
 		25FFD49E282564A300B418E9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFD49D282564A300B418E9 /* ViewController2.swift */; };
+		CF1DE8BA0D07129B2BDF0BE3 /* Pods_AutorizationProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02A08283E50B70D6DA8A384 /* Pods_AutorizationProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		259B4CE228254E1C00CE81A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259B4CE428254E1C00CE81A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25FFD49D282564A300B418E9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		4A46904D5B0D031322943C9E /* Pods-AutorizationProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutorizationProject.debug.xcconfig"; path = "Target Support Files/Pods-AutorizationProject/Pods-AutorizationProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E02A08283E50B70D6DA8A384 /* Pods_AutorizationProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutorizationProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA49F2413E79E06AB18403A7 /* Pods-AutorizationProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutorizationProject.release.xcconfig"; path = "Target Support Files/Pods-AutorizationProject/Pods-AutorizationProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251CB8BD283E227B003E6029 /* Kingfisher in Frameworks */,
+				CF1DE8BA0D07129B2BDF0BE3 /* Pods_AutorizationProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				259B4CD528254E1B00CE81A2 /* AutorizationProject */,
 				259B4CD428254E1B00CE81A2 /* Products */,
+				91A68815844E7A914F5EBF00 /* Pods */,
+				86773BDAA559D8A4900FB558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +79,23 @@
 			path = AutorizationProject;
 			sourceTree = "<group>";
 		};
+		86773BDAA559D8A4900FB558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02A08283E50B70D6DA8A384 /* Pods_AutorizationProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91A68815844E7A914F5EBF00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A46904D5B0D031322943C9E /* Pods-AutorizationProject.debug.xcconfig */,
+				FA49F2413E79E06AB18403A7 /* Pods-AutorizationProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +103,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 259B4CE728254E1C00CE81A2 /* Build configuration list for PBXNativeTarget "AutorizationProject" */;
 			buildPhases = (
+				498840078E374880805FE3EE /* [CP] Check Pods Manifest.lock */,
 				259B4CCF28254E1B00CE81A2 /* Sources */,
 				259B4CD028254E1B00CE81A2 /* Frameworks */,
 				259B4CD128254E1B00CE81A2 /* Resources */,
+				A8F481480E0DEC3557E40B0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AutorizationProject;
+			packageProductDependencies = (
+				251CB8BC283E227B003E6029 /* Kingfisher */,
+			);
 			productName = AutorizationProject;
 			productReference = 259B4CD328254E1B00CE81A2 /* AutorizationProject.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +145,9 @@
 				Base,
 			);
 			mainGroup = 259B4CCA28254E1B00CE81A2;
+			packageReferences = (
+				251CB8BB283E227B003E6029 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 259B4CD428254E1B00CE81A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,6 +169,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498840078E374880805FE3EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutorizationProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F481480E0DEC3557E40B0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutorizationProject/Pods-AutorizationProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutorizationProject/Pods-AutorizationProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutorizationProject/Pods-AutorizationProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		259B4CCF28254E1B00CE81A2 /* Sources */ = {
@@ -286,6 +362,7 @@
 		};
 		259B4CE828254E1C00CE81A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A46904D5B0D031322943C9E /* Pods-AutorizationProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +390,7 @@
 		};
 		259B4CE928254E1C00CE81A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA49F2413E79E06AB18403A7 /* Pods-AutorizationProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		251CB8BB283E227B003E6029 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		251CB8BC283E227B003E6029 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 251CB8BB283E227B003E6029 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 259B4CCB28254E1B00CE81A2 /* Project object */;
 }

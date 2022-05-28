@@ -39,6 +39,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func doneButtonTapped(_ sender: Any) {
+//        performSegue(withIdentifier: "isAutorizeSegue", sender: nil)
         if checkToAutorize() {
             performSegue(withIdentifier: "isAutorizeSegue", sender: nil)
         } else {

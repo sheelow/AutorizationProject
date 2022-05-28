@@ -127,10 +127,24 @@
                     <view key="view" contentMode="scaleToFill" id="YeX-kz-abZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x1Q-jW-xWD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ym5-Zy-1N4"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="x1Q-jW-xWD" secondAttribute="bottom" id="IJy-GW-zJp"/>
+                            <constraint firstItem="x1Q-jW-xWD" firstAttribute="top" secondItem="YeX-kz-abZ" secondAttribute="top" id="MTY-Zl-iKE"/>
+                            <constraint firstItem="Ym5-Zy-1N4" firstAttribute="trailing" secondItem="x1Q-jW-xWD" secondAttribute="trailing" id="RdL-S8-zKL"/>
+                            <constraint firstItem="x1Q-jW-xWD" firstAttribute="leading" secondItem="Ym5-Zy-1N4" secondAttribute="leading" id="wCH-2e-yIs"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DuG-gn-jzB"/>
+                    <connections>
+                        <outlet property="mainImageView" destination="x1Q-jW-xWD" id="wWM-Dr-DOE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gYq-iv-rre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,9 +173,6 @@
         <image name="fonchik" width="1920" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
